@@ -25,10 +25,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create a Resource Group & two Virtual Machines (Windows 10 & Ubuntu Server 20.04)
-- Step 2
-- Step 3
-- Step 4
+- STEP 1: Create a Resource Group & two Virtual Machines (Windows 10 & Ubuntu Server 20.04)
+- STEP 2: Observe ICMP Traffic
+- STEP 3: Observe SSH Traffic
+- STEP 4: Observe DHCP Traffic
+- STEP 5: Observe DNS Traffic
+- STEP 6: Observe RDP Traffic  
 
 <h2>Actions and Observations</h2>
 
@@ -40,21 +42,43 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/ZMXNHKq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</h2>STEP 1: CREATE A RESOURCE GROUP & VIRTUAL MACHINES</h2>
+</h2>STEP 1: CREATE OUR RESOURCES</h2>
 
   - Create a Resource Group "RG-LabNP"
-  - Create VM1 as a Windows 10 VM
-  - Create VM2 as a Ubuntu Server 20.04
+  - Create VM1 as a Windows 10 VM (create credentials)
+  - Create VM2 as a Ubuntu Server 20.04 (create credentials)
 </p>
 <br />
 
  <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/y3C5bi1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</h2>STEP 9: DOWNLOAD AND INSTALL VC_redist.86.exe</h2>
+ <p>
+<img src="https://i.imgur.com/QhQGJgn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/vbN8c2J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/jQ0TCmC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/fpph90d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</h2>STEP 2: OBSERVE ICMP TRAFFIC</h2>
 
-  - Google and Download VC_redist.8.exe
+  - Open Microsoft Remote Desktop and paste the Public IP Address of VM1 and continue to login using previous credentials
+  - Open up the Browser in VM1 and google "download WireShark"
+  - Once it is finished installing open up WireShark and filter for ICMP traffic only
+  - Retrieve the private IP Address from the Ubuntu VM and attempt to ping it from within the Windows 10 VM
+  - Attempt to Ping www.google.com and observe the traffic
+  - Create perpetual ping (-t) from VM1 to VM2 and observe the traffic
+  - Stop the pinging activity
 </p>
 <br />
 
