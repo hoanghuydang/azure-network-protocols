@@ -104,12 +104,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
  <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pOP5D0m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</h2>STEP 9: DOWNLOAD AND INSTALL VC_redist.86.exe</h2>
+</h2>STEP 4: OBSERVE DHCP TRAFFIC</h2>
 
-  - Google and Download VC_redist.8.exe
+  - Go back to WireShark, filter for DHCP traffic only
+  - From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
+  - Observe the DHCP traffic being shown in WireShark
 </p>
 <br />
 
