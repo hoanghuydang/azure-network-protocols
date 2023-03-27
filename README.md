@@ -83,6 +83,47 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
  <p>
+<img src="https://i.imgur.com/7609csE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/y04bJyP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/gNygHVs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</h2>STEP 3: OBSERVE SSH TRAFFIC</h2>
+
+  - Hop back into WireShark and filter for SSH traffic only
+  - From the Windows 10 VM, "SSH into" your Ubuntu Virtual Machine (via its private IP address)
+  - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+  - Exit the SSH Connection by typing 'exit' and pressing Enter
+</p>
+<br />
+
+ <p>
+<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</h2>STEP 9: DOWNLOAD AND INSTALL VC_redist.86.exe</h2>
+
+  - Google and Download VC_redist.8.exe
+</p>
+<br />
+
+ <p>
+<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</h2>STEP 9: DOWNLOAD AND INSTALL VC_redist.86.exe</h2>
+
+  - Google and Download VC_redist.8.exe
+</p>
+<br />
+
+ <p>
 <img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
