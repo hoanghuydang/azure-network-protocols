@@ -116,12 +116,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
  <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7hxi4Rc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</h2>STEP 9: DOWNLOAD AND INSTALL VC_redist.86.exe</h2>
+ <p>
+<img src="https://i.imgur.com/GACnWeF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</h2>STEP 5: OBSERVE DNS TRAFFIC</h2>
 
-  - Google and Download VC_redist.8.exe
+  - Back in WireShark, filter for only DNS traffic
+  - From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com's IP addresses are
+  - Observe the DNS traffic being shown in WireShark
 </p>
 <br />
 
