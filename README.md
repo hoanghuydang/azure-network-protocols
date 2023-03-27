@@ -132,11 +132,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
  <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/c04Sphe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</h2>STEP 9: DOWNLOAD AND INSTALL VC_redist.86.exe</h2>
+</h2>STEP 6: OBSERVE RDP TRAFFIC</h2>
 
-  - Google and Download VC_redist.8.exe
+  - In WireShark, filer for RDP traffic only (tcp.port ==3389)
+  - Observe the immediate non-stop spam of traffic - because RDP (protocol) is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted
 </p>
 <br />
