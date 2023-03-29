@@ -137,7 +137,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 </h2>STEP 6: OBSERVE RDP TRAFFIC</h2>
 
-  - In WireShark, filer for RDP traffic only (tcp.port ==3389)
+  - In WireShark, filter for RDP traffic only (tcp.port ==3389)
   - Observe the immediate non-stop spam of traffic - because RDP (protocol) is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted
 </p>
 <br />
